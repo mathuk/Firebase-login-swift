@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		196CC6AD961978BB14CE61B5 /* Pods_Firebase_singup_login_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C940DEDF3B60A6624CD719C8 /* Pods_Firebase_singup_login_swiftUITests.framework */; };
+		2C34E39122BF8E6100CD678A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C6793C622BF8677002E4BAE /* GoogleService-Info.plist */; };
+		2C67939922BF85A8002E4BAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C67939822BF85A8002E4BAE /* AppDelegate.swift */; };
+		2C67939B22BF85A8002E4BAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C67939A22BF85A8002E4BAE /* ViewController.swift */; };
+		2C67939E22BF85A8002E4BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C67939C22BF85A8002E4BAE /* Main.storyboard */; };
+		2C6793A022BF85A9002E4BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C67939F22BF85A9002E4BAE /* Assets.xcassets */; };
+		2C6793A322BF85A9002E4BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6793A122BF85A9002E4BAE /* LaunchScreen.storyboard */; };
+		2C6793AE22BF85AA002E4BAE /* Firebase_singup_login_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6793AD22BF85AA002E4BAE /* Firebase_singup_login_swiftTests.swift */; };
+		2C6793B922BF85AA002E4BAE /* Firebase_singup_login_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6793B822BF85AA002E4BAE /* Firebase_singup_login_swiftUITests.swift */; };
+		A7530C1BC139F9E4547F4966 /* Pods_Firebase_singup_login_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA4AECA75F5DF00AA1B581A /* Pods_Firebase_singup_login_swiftTests.framework */; };
+		AE358FFC125E39842FD666B6 /* Pods_Firebase_singup_login_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448BF5667BEE54993F39E758 /* Pods_Firebase_singup_login_swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C6793AA22BF85AA002E4BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C67938D22BF85A8002E4BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C67939422BF85A8002E4BAE;
+			remoteInfo = "Firebase-singup-login-swift";
+		};
+		2C6793B522BF85AA002E4BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C67938D22BF85A8002E4BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C67939422BF85A8002E4BAE;
+			remoteInfo = "Firebase-singup-login-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21B91770B11700902552F066 /* Pods-Firebase-singup-login-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase-singup-login-swift.debug.xcconfig"; path = "Target Support Files/Pods-Firebase-singup-login-swift/Pods-Firebase-singup-login-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		2C67939522BF85A8002E4BAE /* Firebase-singup-login-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase-singup-login-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C67939822BF85A8002E4BAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C67939A22BF85A8002E4BAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C67939D22BF85A8002E4BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C67939F22BF85A9002E4BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C6793A222BF85A9002E4BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C6793A422BF85A9002E4BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6793A922BF85AA002E4BAE /* Firebase-singup-login-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firebase-singup-login-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6793AD22BF85AA002E4BAE /* Firebase_singup_login_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_singup_login_swiftTests.swift; sourceTree = "<group>"; };
+		2C6793AF22BF85AA002E4BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6793B422BF85AA002E4BAE /* Firebase-singup-login-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firebase-singup-login-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6793B822BF85AA002E4BAE /* Firebase_singup_login_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase_singup_login_swiftUITests.swift; sourceTree = "<group>"; };
+		2C6793BA22BF85AA002E4BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6793C622BF8677002E4BAE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3460A5BC770670C2C8126B1F /* Pods-Firebase-singup-login-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase-singup-login-swiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-Firebase-singup-login-swiftUITests/Pods-Firebase-singup-login-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		448BF5667BEE54993F39E758 /* Pods_Firebase_singup_login_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_singup_login_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A05A75AE4AF7943C797BFF9 /* Pods-Firebase-singup-login-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase-singup-login-swift.release.xcconfig"; path = "Target Support Files/Pods-Firebase-singup-login-swift/Pods-Firebase-singup-login-swift.release.xcconfig"; sourceTree = "<group>"; };
+		962EB1D41DC542740650DCE1 /* Pods-Firebase-singup-login-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase-singup-login-swiftTests.release.xcconfig"; path = "Target Support Files/Pods-Firebase-singup-login-swiftTests/Pods-Firebase-singup-login-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		BEA4AECA75F5DF00AA1B581A /* Pods_Firebase_singup_login_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_singup_login_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C940DEDF3B60A6624CD719C8 /* Pods_Firebase_singup_login_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_singup_login_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E328AEF0D693C47E750216 /* Pods-Firebase-singup-login-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase-singup-login-swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-Firebase-singup-login-swiftTests/Pods-Firebase-singup-login-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE460297AE198A25028625B5 /* Pods-Firebase-singup-login-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase-singup-login-swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-Firebase-singup-login-swiftUITests/Pods-Firebase-singup-login-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C67939222BF85A8002E4BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE358FFC125E39842FD666B6 /* Pods_Firebase_singup_login_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6793A622BF85AA002E4BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7530C1BC139F9E4547F4966 /* Pods_Firebase_singup_login_swiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6793B122BF85AA002E4BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196CC6AD961978BB14CE61B5 /* Pods_Firebase_singup_login_swiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F37D433851E211A5B892B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21B91770B11700902552F066 /* Pods-Firebase-singup-login-swift.debug.xcconfig */,
+				7A05A75AE4AF7943C797BFF9 /* Pods-Firebase-singup-login-swift.release.xcconfig */,
+				C9E328AEF0D693C47E750216 /* Pods-Firebase-singup-login-swiftTests.debug.xcconfig */,
+				962EB1D41DC542740650DCE1 /* Pods-Firebase-singup-login-swiftTests.release.xcconfig */,
+				3460A5BC770670C2C8126B1F /* Pods-Firebase-singup-login-swiftUITests.debug.xcconfig */,
+				CE460297AE198A25028625B5 /* Pods-Firebase-singup-login-swiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2C67938C22BF85A8002E4BAE = {
+			isa = PBXGroup;
+			children = (
+				2C67939722BF85A8002E4BAE /* Firebase-singup-login-swift */,
+				2C6793AC22BF85AA002E4BAE /* Firebase-singup-login-swiftTests */,
+				2C6793B722BF85AA002E4BAE /* Firebase-singup-login-swiftUITests */,
+				2C67939622BF85A8002E4BAE /* Products */,
+				22F37D433851E211A5B892B1 /* Pods */,
+				C2391043D481ABFD59063F91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C67939622BF85A8002E4BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C67939522BF85A8002E4BAE /* Firebase-singup-login-swift.app */,
+				2C6793A922BF85AA002E4BAE /* Firebase-singup-login-swiftTests.xctest */,
+				2C6793B422BF85AA002E4BAE /* Firebase-singup-login-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C67939722BF85A8002E4BAE /* Firebase-singup-login-swift */ = {
+			isa = PBXGroup;
+			children = (
+				2C67939822BF85A8002E4BAE /* AppDelegate.swift */,
+				2C67939A22BF85A8002E4BAE /* ViewController.swift */,
+				2C67939C22BF85A8002E4BAE /* Main.storyboard */,
+				2C67939F22BF85A9002E4BAE /* Assets.xcassets */,
+				2C6793A122BF85A9002E4BAE /* LaunchScreen.storyboard */,
+				2C6793A422BF85A9002E4BAE /* Info.plist */,
+				2C6793C622BF8677002E4BAE /* GoogleService-Info.plist */,
+			);
+			path = "Firebase-singup-login-swift";
+			sourceTree = "<group>";
+		};
+		2C6793AC22BF85AA002E4BAE /* Firebase-singup-login-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C6793AD22BF85AA002E4BAE /* Firebase_singup_login_swiftTests.swift */,
+				2C6793AF22BF85AA002E4BAE /* Info.plist */,
+			);
+			path = "Firebase-singup-login-swiftTests";
+			sourceTree = "<group>";
+		};
+		2C6793B722BF85AA002E4BAE /* Firebase-singup-login-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C6793B822BF85AA002E4BAE /* Firebase_singup_login_swiftUITests.swift */,
+				2C6793BA22BF85AA002E4BAE /* Info.plist */,
+			);
+			path = "Firebase-singup-login-swiftUITests";
+			sourceTree = "<group>";
+		};
+		C2391043D481ABFD59063F91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				448BF5667BEE54993F39E758 /* Pods_Firebase_singup_login_swift.framework */,
+				BEA4AECA75F5DF00AA1B581A /* Pods_Firebase_singup_login_swiftTests.framework */,
+				C940DEDF3B60A6624CD719C8 /* Pods_Firebase_singup_login_swiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C67939422BF85A8002E4BAE /* Firebase-singup-login-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6793BD22BF85AA002E4BAE /* Build configuration list for PBXNativeTarget "Firebase-singup-login-swift" */;
+			buildPhases = (
+				7D67B0A71428FE306C0E9477 /* [CP] Check Pods Manifest.lock */,
+				2C67939122BF85A8002E4BAE /* Sources */,
+				2C67939222BF85A8002E4BAE /* Frameworks */,
+				2C67939322BF85A8002E4BAE /* Resources */,
+				37B2664B4EEC300D44903DD2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Firebase-singup-login-swift";
+			productName = "Firebase-singup-login-swift";
+			productReference = 2C67939522BF85A8002E4BAE /* Firebase-singup-login-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C6793A822BF85AA002E4BAE /* Firebase-singup-login-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6793C022BF85AA002E4BAE /* Build configuration list for PBXNativeTarget "Firebase-singup-login-swiftTests" */;
+			buildPhases = (
+				31E2A988D71F18DBF3A9FC09 /* [CP] Check Pods Manifest.lock */,
+				2C6793A522BF85AA002E4BAE /* Sources */,
+				2C6793A622BF85AA002E4BAE /* Frameworks */,
+				2C6793A722BF85AA002E4BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C6793AB22BF85AA002E4BAE /* PBXTargetDependency */,
+			);
+			name = "Firebase-singup-login-swiftTests";
+			productName = "Firebase-singup-login-swiftTests";
+			productReference = 2C6793A922BF85AA002E4BAE /* Firebase-singup-login-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C6793B322BF85AA002E4BAE /* Firebase-singup-login-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6793C322BF85AA002E4BAE /* Build configuration list for PBXNativeTarget "Firebase-singup-login-swiftUITests" */;
+			buildPhases = (
+				D3BEF677B38753F6A5DA223F /* [CP] Check Pods Manifest.lock */,
+				2C6793B022BF85AA002E4BAE /* Sources */,
+				2C6793B122BF85AA002E4BAE /* Frameworks */,
+				2C6793B222BF85AA002E4BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C6793B622BF85AA002E4BAE /* PBXTargetDependency */,
+			);
+			name = "Firebase-singup-login-swiftUITests";
+			productName = "Firebase-singup-login-swiftUITests";
+			productReference = 2C6793B422BF85AA002E4BAE /* Firebase-singup-login-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C67938D22BF85A8002E4BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Mathula;
+				TargetAttributes = {
+					2C67939422BF85A8002E4BAE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2C6793A822BF85AA002E4BAE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2C67939422BF85A8002E4BAE;
+					};
+					2C6793B322BF85AA002E4BAE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2C67939422BF85A8002E4BAE;
+					};
+				};
+			};
+			buildConfigurationList = 2C67939022BF85A8002E4BAE /* Build configuration list for PBXProject "Firebase-singup-login-swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C67938C22BF85A8002E4BAE;
+			productRefGroup = 2C67939622BF85A8002E4BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C67939422BF85A8002E4BAE /* Firebase-singup-login-swift */,
+				2C6793A822BF85AA002E4BAE /* Firebase-singup-login-swiftTests */,
+				2C6793B322BF85AA002E4BAE /* Firebase-singup-login-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C67939322BF85A8002E4BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6793A322BF85A9002E4BAE /* LaunchScreen.storyboard in Resources */,
+				2C6793A022BF85A9002E4BAE /* Assets.xcassets in Resources */,
+				2C34E39122BF8E6100CD678A /* GoogleService-Info.plist in Resources */,
+				2C67939E22BF85A8002E4BAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6793A722BF85AA002E4BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6793B222BF85AA002E4BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31E2A988D71F18DBF3A9FC09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase-singup-login-swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37B2664B4EEC300D44903DD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase-singup-login-swift/Pods-Firebase-singup-login-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase-singup-login-swift/Pods-Firebase-singup-login-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase-singup-login-swift/Pods-Firebase-singup-login-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D67B0A71428FE306C0E9477 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase-singup-login-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3BEF677B38753F6A5DA223F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase-singup-login-swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C67939122BF85A8002E4BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C67939B22BF85A8002E4BAE /* ViewController.swift in Sources */,
+				2C67939922BF85A8002E4BAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6793A522BF85AA002E4BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6793AE22BF85AA002E4BAE /* Firebase_singup_login_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6793B022BF85AA002E4BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6793B922BF85AA002E4BAE /* Firebase_singup_login_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C6793AB22BF85AA002E4BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C67939422BF85A8002E4BAE /* Firebase-singup-login-swift */;
+			targetProxy = 2C6793AA22BF85AA002E4BAE /* PBXContainerItemProxy */;
+		};
+		2C6793B622BF85AA002E4BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C67939422BF85A8002E4BAE /* Firebase-singup-login-swift */;
+			targetProxy = 2C6793B522BF85AA002E4BAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C67939C22BF85A8002E4BAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C67939D22BF85A8002E4BAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C6793A122BF85A9002E4BAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C6793A222BF85A9002E4BAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C6793BB22BF85AA002E4BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C6793BC22BF85AA002E4BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C6793BE22BF85AA002E4BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B91770B11700902552F066 /* Pods-Firebase-singup-login-swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Firebase-singup-login-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "name.Firebase-singup-login-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C6793BF22BF85AA002E4BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A05A75AE4AF7943C797BFF9 /* Pods-Firebase-singup-login-swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Firebase-singup-login-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "name.Firebase-singup-login-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C6793C122BF85AA002E4BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E328AEF0D693C47E750216 /* Pods-Firebase-singup-login-swiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Firebase-singup-login-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "name.Firebase-singup-login-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase-singup-login-swift.app/Firebase-singup-login-swift";
+			};
+			name = Debug;
+		};
+		2C6793C222BF85AA002E4BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962EB1D41DC542740650DCE1 /* Pods-Firebase-singup-login-swiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Firebase-singup-login-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "name.Firebase-singup-login-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Firebase-singup-login-swift.app/Firebase-singup-login-swift";
+			};
+			name = Release;
+		};
+		2C6793C422BF85AA002E4BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3460A5BC770670C2C8126B1F /* Pods-Firebase-singup-login-swiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Firebase-singup-login-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "name.Firebase-singup-login-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Firebase-singup-login-swift";
+			};
+			name = Debug;
+		};
+		2C6793C522BF85AA002E4BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE460297AE198A25028625B5 /* Pods-Firebase-singup-login-swiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Firebase-singup-login-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "name.Firebase-singup-login-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Firebase-singup-login-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C67939022BF85A8002E4BAE /* Build configuration list for PBXProject "Firebase-singup-login-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6793BB22BF85AA002E4BAE /* Debug */,
+				2C6793BC22BF85AA002E4BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6793BD22BF85AA002E4BAE /* Build configuration list for PBXNativeTarget "Firebase-singup-login-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6793BE22BF85AA002E4BAE /* Debug */,
+				2C6793BF22BF85AA002E4BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6793C022BF85AA002E4BAE /* Build configuration list for PBXNativeTarget "Firebase-singup-login-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6793C122BF85AA002E4BAE /* Debug */,
+				2C6793C222BF85AA002E4BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C6793C322BF85AA002E4BAE /* Build configuration list for PBXNativeTarget "Firebase-singup-login-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6793C422BF85AA002E4BAE /* Debug */,
+				2C6793C522BF85AA002E4BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C67938D22BF85A8002E4BAE /* Project object */;
+}

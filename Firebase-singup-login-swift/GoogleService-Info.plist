@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>561302969880-f8325dvgldu0jgid2p8scio23cuu1c7d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.561302969880-f8325dvgldu0jgid2p8scio23cuu1c7d</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBegEoBxLz1kA1_xeQ8dx92S_KsYRjh__M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>561302969880</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>name.Firebase-singup-login-swift</string>
+	<key>PROJECT_ID</key>
+	<string>mathula-94397</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mathula-94397.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:561302969880:ios:b04f2bb9e2098436</string>
+	<key>DATABASE_URL</key>
+	<string>https://mathula-94397.firebaseio.com</string>
+</dict>
+</plist>
